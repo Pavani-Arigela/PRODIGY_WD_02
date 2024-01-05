@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: mediumpurple;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.stopwatch {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  width: 80%;
+}
+
+.display {
+  font-size: 3em;
+  margin-bottom: 20px;
+  color: #ff5722; /* Orange color for display */
+}
+
+.controls button {
+  padding: 12px 24px;
+  margin: 8px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #2196f3; /* Blue color for buttons */
+  color: #fff;
+}
+
+.controls button:hover {
+  background-color: #1976d2; /* Darker shade of blue on hover */
+}
+
+#laps {
+  text-align: left;
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+#laps li {
+  margin-bottom: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #4caf50; /* Green color for lap list items */
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
